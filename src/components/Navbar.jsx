@@ -11,9 +11,15 @@ const Navbar = () => {
         <li><a href="#project" className="hover:text-gray-400">Projects</a></li>
         <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
       </ul>
-      <button className="bg-gradient-to-r from-green-400 to-blue-500 px-4 py-2 rounded-full hover:scale-105 transition-transform duration-300 hidden md:inline">
-        Connect Me
-      </button>
+      <a 
+        href="https://www.linkedin.com/in/harini-s-85a93b299/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        <button className="bg-gradient-to-r from-green-400 to-blue-500 px-4 py-2 rounded-full hover:scale-105 transition-transform duration-300">
+          Connect Me
+        </button>
+      </a>
     </div>
   );
 };

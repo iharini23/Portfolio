@@ -1,28 +1,28 @@
 import React from 'react';
-
-import employeeMSImage from "../assets/employee-ms.png";
+import portfolioImage from "../assets/portfolio.png";
+import agriImage from "../assets/agri.png";
 import bookMsImage from "../assets/admin-dashboard.png";
 
 const projects = [
     {
         id: 1,
-        name: 'Employee MS',
+        name: 'Portfolio Website',
         technologies: 'MERN Stack',
-        image: employeeMSImage,
-        github: 'https://github.com/iharini23',
+        image: portfolioImage,
+        github: 'https://github.com/iharini23/Portfolio',
     },
     {
         id: 2,
-        name: 'Blog App',
+        name: 'AgriEngage-Intelligent-Agriculture',
         technologies: 'MERN Stack',
-        image: bookMsImage,
-        github: 'https://github.com/iharini23',
+        image: agriImage,
+        github: 'https://github.com/iharini23/AgriEngage-Intelligent-Agriculture',
     },
     {
         id: 3,
-        name: 'Book MS',
+        name: 'Online Food Ordering Web Application',
         technologies: 'MERN Stack',
-        image: employeeMSImage,
+        image: bookMsImage,
         github: 'https://github.com/iharini23',
     },
 ];
